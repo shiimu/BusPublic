@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="refresh" content="20">                
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'style.css') }}">
+    <title>Bus Times</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        $('#btnclick').click(function() {
+        $('#testdiv').load();
+        });
+          })
+    </script>
+</head>
+     <img>
+   <p1> {{ timen }}</p1>
+   <body>
+   <table class="c">
+     <tr>
+       <th>Linja</th>
+       <th>Määränpää</th>
+       <th>Aika / min</th>
+     </tr>
+     <tr>
+       <td>{{ busK1 }}</td>
+       <td>{{ busR1 }}</td>
+       <td>{{ busT1 }}</td>
+     </tr>
+     <tr>
+       <td>{{ busK2 }}</td>
+       <td>{{ busR2 }}</td>
+       <td>{{ busT2 }}</td>
+     </tr>
+     <tr>
+       <td>{{ busK3 }}</td>
+       <td>{{ busR3 }}</td>
+       <td>{{ busT3 }}</td>
+     </tr>
+     <tr>
+       <td>{{ busK4 }}</td>
+       <td>{{ busR4 }}</td>
+       <td>{{ busT4 }}</td>
+     </tr>
+     <tr>
+      <td>{{ busK5 }}</td>
+      <td>{{ busR5 }}</td>
+      <td>{{ busT5 }}</td>
+    </tr>
+   </table>
+</body>
+</html>

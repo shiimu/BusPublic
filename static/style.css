@@ -1,0 +1,47 @@
+body{
+    background-color:#007fc6;
+}
+p1 {
+    color: #007fc6;
+    background-color: white;
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 90px;
+    font-weight: bolder;  
+    float: right;
+    position: sticky;
+    border-radius: 25px;
+}
+
+img{
+    content: url(logo.png);
+    width: 25%;
+    height: 25%;
+    
+
+}
+table {
+    
+    border-bottom-style: solid;
+    border-bottom-color:  white;
+    color: white;
+    text-align: left;
+    padding: 10px;
+} 
+  
+th,td {
+    border-collapse: 1px dotted white;
+    border-bottom-style: dotted;
+    border-bottom-color:  white;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 40px;
+}
+table.c {
+    table-layout: auto;
+    width: 100%;  
+  }
+
+  
